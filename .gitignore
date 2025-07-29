@@ -3,4 +3,5 @@
 !*.py
 !images/
 !images/**
+!*.txt
 !.gitignore
