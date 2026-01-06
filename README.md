@@ -1,16 +1,39 @@
-# Traffic-Operating-Machine
+# 🚦 Traffic Operating Machine (JAMITOM)
 
-This repository contains files developed during a scientific initiation project in high school.
+**JAMITOM** — *Just A Mindful and Intelligent Traffic Operating Machine* — is a traffic simulation and optimisation project developed as part of a high school scientific initiation programme. The project starts from a basic traffic intersection simulation and evolves to model more realistic traffic behaviour, such as congestion patterns and adaptive traffic light control, with experiments involving optimisation algorithms.
 
-Most of the files are different versions of a traffic simulation that was upgraded from its original version available 
-at https://github.com/mihir-m-gandhi/Basic-Traffic-Intersection-Simulation. 
 
-This simulation was modified by myself in an attempt to simulate real traffic phenomena, such as phantom jams. 
+## Overview
 
-In addition to the simulation versions that were created 
-to meet the different demands of this project, the images used in the simulation are also in the repository, 
-as well as auxiliary files used to run simulations in parallel and collect data. 
+This repository contains multiple versions of a traffic intersection simulator, each representing an incremental development step. It also includes auxiliary scripts for running simulations, collecting results, and experimenting with optimisation techniques such as genetic algorithms.
 
-Finally, there is a file 
-that consists of a simple genetic algorithm that uses the simulation to obtain optimal
-traffic light times at the studied intersection.
+The main goals of the project are:
+
+- Simulate traffic flow at an intersection with realistic behaviour.
+- Explore methods to optimise traffic light timings.
+- Experiment with intelligent algorithms to improve traffic efficiency.
+
+---
+
+## Key Features
+
+- Traffic intersection simulation with basic traffic light logic.
+- Multiple simulation variants reflecting different development stages.
+- Scripts for faster or parallel simulation execution.
+- A simple genetic algorithm for traffic light timing optimisation.
+- Output images and data for analysis.
+
+---
+
+## Repository Structure
+
+```plaintext
+├── images/              # Images used in the simulation
+├── algorithm.py         # Genetic algorithm for traffic light optimisation
+├── exec.py              # Execution script 
+├── fast.py              # Faster simulation used alongside the algorithm
+├── latest.py            # Most recent simulation version
+├── main.py              # Main entry point
+├── main2.py             # Alternative execution version
+├── .gitignore
+├── README.md            # Project documentation
